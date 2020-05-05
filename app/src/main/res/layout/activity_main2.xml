@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.example.awais.happy_birth_day.Main2Activity">
+   <RelativeLayout
+       android:id="@+id/latex"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true">
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="From Wasi Said"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/Purple"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/cot"
+        android:layout_below="@+id/wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="17dp"
+        android:text="Guriya Sahiba kia kahon yar bus yahi hun main asa he hun...! Janab g apki sub cheezain amanat hai meray pas main yakin tow nahi dila sakta but fr v yahi kah sakta hun main kabhi b ap k liye mushkil nahi bano ga but pagal jo ap k naraz honay py kamp jata hai dil wo apko kooh deny py kitna tarpata ho ga....Allah pak ap k liye asania paida karay or hamesha hush raho ap Ameen"/>
+   </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/latex"
+        android:id="@+id/layimg"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/Cake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/awaisss" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@+id/layimg"
+        android:layout_toStartOf="@+id/layimg"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

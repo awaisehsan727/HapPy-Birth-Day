@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.example.awais.happy_birth_day.MainActivity"
+    >
+        <RelativeLayout
+            android:id="@+id/lay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/wish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Wasi Ki Shoni Gudi"
+                    android:textStyle="bold"
+                    android:textColor="@color/Purple"
+                    android:textAllCaps="false"
+                    android:textSize="30dp" />
+                 <TextView
+                     android:id="@+id/Cotation"
+                     android:layout_marginTop="10dp"
+                     android:layout_below="@id/wish"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:text="Best Of Luck For Future .... and Keeps Smile always on your cute face..!"
+                     android:textColor="@color/Black"
+                     android:textSize="18dp"
+                     android:textStyle="italic"
+                     />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layimg"
+            android:layout_below="@id/lay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+                <ImageView
+                    android:id="@+id/Cake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="37dp"
+                    android:background="@drawable/first" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/laybtn"
+            android:layout_below="@+id/layimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+                <TextView
+                    android:id="@+id/click"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Click! Next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Purple"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/clos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundbtn"
+                    android:backgroundTint="@color/DarkMagenta"
+                    android:text="Close Music"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="20dp" />
+        </RelativeLayout>
+
+</RelativeLayout>
